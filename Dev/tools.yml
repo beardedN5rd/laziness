@@ -1,0 +1,17 @@
+---
+ - name: install DevOps tools
+   apt: name={{ item }} state=present
+   with_items:
+       - build-essential
+       - terminator
+       - mc
+       - screen
+       - meld
+
+ -  name: install atom
+    args:
+      executable: /bin/bash
+    shell: |
+      apt-add-repository ppa:webupd8team/atom
+      apt-get update
+      apt-get install atom

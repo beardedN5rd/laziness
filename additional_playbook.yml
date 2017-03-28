@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  become_method: sudo
+
+  tasks:
+   - include: office.yml
+   - include: SocEnt/media.yml
+   - include: SocEnt/social.yml

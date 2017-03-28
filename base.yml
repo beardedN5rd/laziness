@@ -1,0 +1,11 @@
+---
+ - name: update cache
+   apt: update_cache=yes
+
+ - name: install required packages
+   apt: name={{ item }} state=present
+   with_items:
+       - git
+       - synaptic
+       - openjdk-8-jdk
+

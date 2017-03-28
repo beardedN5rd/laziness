@@ -1,0 +1,11 @@
+---
+ - name: install network tools
+   apt: name={{ item }} state=present
+   with_items:
+       - bmon
+       - nmap
+       - traceroute
+       - wireshark
+       - lynx
+       - telnet
+       - torbrowser-launcher

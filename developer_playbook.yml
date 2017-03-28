@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  become_method: sudo
+
+  tasks:
+   - include: base.yml
+   - include: Dev/container.yml
+   - include: Dev/network.yml
+   - include: Dev/tools.yml
+   - include: Dev/virtual.yml
