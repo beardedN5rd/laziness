@@ -6,6 +6,4 @@
        - nmap
        - traceroute
        - wireshark
-       - lynx
        - telnet
-       - torbrowser-launcher
