@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#install ansible
+. ./scripts/install_on_ubuntu.sh
