@@ -1,5 +1,4 @@
 #!/bin/bash
 
 #run ansible
-sudo ansible-playbook -i "localhost", -c local developer_playbook.yml
-#sudo ansible-playbook -i "localhost", -c local additional_playbook.yml
+sudo ansible-playbook -i "localhost", -c local ansible/playbook.yml
