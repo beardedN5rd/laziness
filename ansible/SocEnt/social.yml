@@ -1,7 +1,0 @@
----
- - name: install social tools
-   apt: name={{ item }} state=present
-   with_items:
-       - pidgin
-       - irssi
-

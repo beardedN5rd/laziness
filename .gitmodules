@@ -1,6 +1,12 @@
 [submodule "scripts"]
 	path = scripts
 	url = https://github.com/beardedN5rd/prepare4ansible.git
-[submodule "ansible/roles/docker"]
-	path = ansible/roles/docker
-	url = https://github.com/forkorama-legion/ansible-role-docker.git
+[submodule "roles/docker"]
+	path = roles/docker
+	url = https://github.com/beardedN5rd/ansible-role-docker.git
+[submodule "roles/docker-compose"]
+	path = roles/docker-compose
+	url = https://github.com/beardedN5rd/ansible-role-docker-compose.git
+[submodule "roles/virtualbox"]
+	path = roles/virtualbox
+	url = https://github.com/beardedN5rd/ansible-role-virtualbox.git
